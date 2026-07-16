@@ -114,7 +114,7 @@
             .courses-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
             .tasks-section { padding: 18px 16px; }
         }
-        @media (max-width: 480px) { .header-right .user-role { display: none; } .courses-grid { grid-template-columns: 1fr 1fr; } .welcome-badge { font-size: 13px; padding: 6px 16px; } }
+        @media (max-width: 480px) { .header-right .user-role { display: none; } .courses-grid { grid-template-columns: 1fr 1fr; } .welcome-badge { font-size: 13px; padding: 6px 16px; } } .disclaimer {opacity: 0; color: red;} .disclaimer:hover {opacity: 1}
     </style>
 </head>
 <body>
@@ -136,8 +136,8 @@
             <div class="user-profile">
                 <div class="user-avatar">И</div>
                 <div>
-                    <div class="user-name">Иван Петров</div>
-                    <div class="user-role">Ученик</div>
+                    <div class="user-name">Архипенко Михаил</div>
+                    <div class="user-role">Плохой ученик</div>
                 </div>
             </div>
         </div>
@@ -233,4 +233,7 @@
     </div>
 
 </body>
+<footer>
+    <p class="disclaimer"> Данный сайт создан как шуточный проект. Уважаемая администрация алгоритмики не баньте я просто шую </p>
+</footer>
 </html>
